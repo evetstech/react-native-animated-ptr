@@ -30,7 +30,7 @@ Here is an example of Yelp's Pull to refresh (the best one in my opinion) writte
 <img src='./doc/android_ptr.gif'></img>
 <img src='./doc/ios_ptr.gif'></img>
 
-Code behind this.  It's a little lengthy, do to the amount of detail (same code for Android and iOS!):
+Code behind this.  It's a little lengthy, due to the amount of detail in the animation (same code for Android and iOS!):
 
 
 ```
