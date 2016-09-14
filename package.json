@@ -1,0 +1,31 @@
+{
+  "name": "react-native-animated-ptr",
+  "version": "1.0.0",
+  "description": "An easy-to-create custom animated pull to refresh component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evetstech/react-native-animated-ptr.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "settings-list",
+    "settings"
+  ],
+  "author": "Steve Singrattana <steve@projectinf.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evetstech/react-native-animated-ptr/issues"
+  },
+  "homepage": "https://github.com/evetstech/react-native-animated-ptr#readme",
+  "dependencies": {
+    "react": "15.2.1",
+    "react-native": "^0.30.0"
+  }
+}
