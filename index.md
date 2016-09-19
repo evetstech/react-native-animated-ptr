@@ -28,6 +28,7 @@ Refresh state set by parent to trigger refresh.
 <strong>minPullDistance</strong> React.PropTypes.number<br>
 Sets pull distance for how far the Y axis needs to be pulled before a refresh event is triggered
 </p>
+<p class="notice">
 <strong>onRefresh</strong> React.PropTypes.number<br>
 Callback for when the refreshing state occurs
 </p>
@@ -35,6 +36,7 @@ Callback for when the refreshing state occurs
 <strong>contentComponent</strong> React.PropTypes.object.isRequired<br>
 The content view which should be passed in as a scrollable type (i.e ScrollView or ListView)
 </p>
+<p class="notice">
 <strong>contentBackgroundColor</strong> React.PropTypes.object.isRequired<br>
 The content view's background color, not to be mistaken with the content component's background color
 </p>
