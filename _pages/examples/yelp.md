@@ -1,5 +1,12 @@
-<img src='./doc/android_ptr.gif'></img>
-<img src='./doc/ios_ptr.gif'></img>
+---
+title: "Fade Animation"
+layout: single
+sidebar:
+  nav: "docs"
+permalink: examples/yelp/
+---
+<img src='../../doc/android_ptr.gif'></img>
+<img src='../../doc/ios_ptr.gif'></img>
 
 The code behind creating this pull to refresh is as follows:
 
