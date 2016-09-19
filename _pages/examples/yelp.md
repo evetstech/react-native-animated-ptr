@@ -1,5 +1,5 @@
 ---
-title: "Fade Animation"
+title: "Yelp Example"
 layout: single
 sidebar:
   nav: "docs"
