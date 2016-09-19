@@ -10,7 +10,7 @@ docs:
   - title: Getting Started
     children:
       - title: "Quick-Start"
-        url: quick-start-guide/
+        url: 
       - title: "Nested Animations"
         url: nested/
 
