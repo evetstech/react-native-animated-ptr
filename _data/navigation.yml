@@ -17,7 +17,7 @@ docs:
   - title: Animations
     children:
       - title: "Scroll"
-        url: /scroll/
+        url: pages/scroll/
       - title: "Fade"
         url: /docs/fade/
       - title: "Timed"
