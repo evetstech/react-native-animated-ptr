@@ -10,22 +10,22 @@ docs:
   - title: Getting Started
     children:
       - title: "Quick-Start"
-        url: /doc/quick-start-guide/
+        url: quick-start-guide/
       - title: "Nested Animations"
-        url: /doc/nested/
+        url: nested/
 
   - title: Animations
     children:
       - title: "Scroll"
         url: scroll/
       - title: "Fade"
-        url: /docs/fade/
+        url: fade/
       - title: "Timed"
-        url: /doc/timed/
+        url: timed/
       - title: "Custom"
-        url: /docs/custom/
+        url: custom/
 
   - title: Examples
     children:
       - title: "Yelp"
-        url: /docs/examples/yelp/
+        url: examples/yelp/
