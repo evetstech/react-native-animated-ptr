@@ -1,7 +1,31 @@
 # main links links
 main:
-  - title: "Sample Navigation Link"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
+  - title: "GitHub"
+    url: https://github.com/evetstech/react-native-animated-ptr/
 
-  - title: "Sample Navigation Link 2"
+  - title: "Docs"
     url: /
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start"
+        url: /doc/quick-start-guide/
+      - title: "Nested Animations"
+        url: /doc/nested/
+
+  - title: Animations
+    children:
+      - title: "Scroll"
+        url: /scroll/
+      - title: "Fade"
+        url: /docs/fade/
+      - title: "Timed"
+        url: /doc/timed/
+      - title: "Custom"
+        url: /docs/custom/
+
+  - title: Examples
+    children:
+      - title: "Yelp"
+        url: /docs/examples/yelp/
