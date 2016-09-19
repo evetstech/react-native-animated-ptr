@@ -5,8 +5,8 @@ sidebar:
   nav: "docs"
 permalink: examples/yelp/
 ---
-<img src='../../doc/android_ptr.gif'></img>
-<img src='../../doc/ios_ptr.gif'></img>
+<img src='../../doc/android_ptr.gif'/>
+<img src='../../doc/ios_ptr.gif'/>
 
 The code behind creating this pull to refresh is as follows:
 
