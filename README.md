@@ -1,9 +1,7 @@
 # react-native-animated-ptr
----
 A React Native Pull-To-Refresh component that creates animated transitions.<a name='top'/>
 
 ## Why use this?
----
 Currently there is RefreshControl you could natively use from the RN library, but what it lacks is allowing you to create a personalized pull-to-refresh look.  To use the native library component, you would have to add in features into the native iOS/Android RefreshControl bridges.  
 
 So instead, I wrote this component which uses the React Native Animated API.  Included are a few core/basic animation types to get started with, yet allows for a multitude of different creations (see implementation of yelp's custom), so you don't need to learn the animated api to get started! The library is extremely easy to expand upon to add for more complex animations that aren't available currently.
@@ -12,19 +10,18 @@ I wrote this with the React Native approach of 'Learn once, write everywhere'.  
 
 
 ##Installation
----
 ```
 npm -i react-native-animated-ptr
 ```
 
 ##Usage
----
 ```
 import 'AnimatedPTR' from 'react-native-animated-ptr';
 ```
+##In Depth Docs
+Visit https://evetstech.github.io/react-native-animated-ptr/
 
 ##Examples
----
 Here is an example of Yelp's Pull to refresh (the best one in my opinion) written using only the component.
 
 <img src='./doc/android_ptr.gif'></img>
