@@ -14,7 +14,7 @@ I wrote this with the React Native approach of 'Learn once, write everywhere'.  
 ##Installation
 ---
 ```
-npm -i react-native-animated-ptr
+npm -i react-native-animated-ptr --save
 ```
 
 ##Usage
