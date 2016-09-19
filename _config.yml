@@ -4,16 +4,23 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
 # Site Settings
 locale                   : "en"
-title                    : "React-Native-Animated-PTR"
-title_separator          : "A pull-to-refresh animated component"
+title                    : "react-native-animated-ptr"
+title_separator          : "-"
 name                     : "Steve Singrattana"
-description              : "react-native-animated-ptr"
-url                      : https://www.projectinf.com/
-baseurl                  : /docs
-repository               : evetstech/react-native-animated-ptr
+description              : "A React Native Pull-To-Refresh component that creates animated transitions."
+url                      : "https://evetstech.github.io/react-native-animated-ptr/"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "evetstech/react-native-animated-ptr"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -78,9 +85,9 @@ analytics:
 # Site Author
 author:
   name             : "Steve Singrattana"
-  avatar           : 
-  bio              : 
-  location         : 
+  avatar           : "bio-photo.jpg"
+  bio              : ""
+  location         : ""
   email            :
   uri              :
   bitbucket        :
