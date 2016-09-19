@@ -1,7 +1,7 @@
 ---
 title: "RN-Animated-PTR: Scroll Animation"
 layout: single
-permalink: /scroll/
+permalink: scroll/
 ---
 
 Test
