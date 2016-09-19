@@ -4,7 +4,7 @@ main:
     url: https://github.com/evetstech/react-native-animated-ptr/
 
   - title: "Docs"
-    url: /
+    url: 
 
 docs:
   - title: Getting Started
