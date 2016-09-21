@@ -15,8 +15,8 @@
     "react-component",
     "ios",
     "android",
-    "settings-list",
-    "settings"
+    "animated",
+    "pull to refresh"
   ],
   "author": "Steve Singrattana <steve@projectinf.com>",
   "license": "MIT",
