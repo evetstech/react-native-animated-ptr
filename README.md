@@ -11,7 +11,7 @@ I wrote this with the React Native approach of 'Learn once, write everywhere'.  
 
 ##Installation
 ```
-npm -i react-native-animated-ptr
+npm i react-native-animated-ptr --save
 ```
 
 ##Usage
@@ -26,6 +26,8 @@ Here is an example of Yelp's Pull to refresh (the best one in my opinion) writte
 
 <img src='./doc/android_ptr.gif'></img>
 <img src='./doc/ios_ptr.gif'></img>
+
+Try this demo out with Exponent: https://getexponent.com/@community/animated-ptr-example
 
 Code behind this.  It's a little lengthy, due to the amount of detail in the animation (same code for Android and iOS!):
 
