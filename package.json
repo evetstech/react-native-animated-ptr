@@ -23,9 +23,5 @@
   "bugs": {
     "url": "https://github.com/evetstech/react-native-animated-ptr/issues"
   },
-  "homepage": "https://github.com/evetstech/react-native-animated-ptr#readme",
-  "dependencies": {
-    "react": "15.2.1",
-    "react-native": "^0.30.0"
-  }
+  "homepage": "https://github.com/evetstech/react-native-animated-ptr#readme"
 }
