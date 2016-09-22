@@ -1,0 +1,17 @@
+{
+  "name": "animated-ptr-example",
+  "description": "Yelp-style fancy pull-to-refresh example by @evetstech: https://github.com/evetstech/react-native-animated-ptr",
+  "slug": "animated-ptr-example",
+  "sdkVersion": "10.0.0",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "primaryColor": "#ff0000",
+  "iconUrl": "https://s3.amazonaws.com/exp-us-standard/icons/ptr-example-icon.png",
+  "loading": {
+    "iconUrl": "https://s3.amazonaws.com/exp-us-standard/icons/ptr-example-icon.png",
+    "hideExponentText": false
+  },
+  "packagerOpts": {
+    "assetExts": ["ttf", "mp4"]
+  }
+}

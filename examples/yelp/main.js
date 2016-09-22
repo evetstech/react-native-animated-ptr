@@ -1,15 +1,16 @@
+import Exponent from 'exponent';
 import React, { Component } from 'react'
 import {
-  AppRegistry,
-  View,
-  Text,
-  ListView,
   Image,
+  ListView,
+  StatusBar,
   StyleSheet,
+  Text,
+  View,
 } from 'react-native'
 import PullToRefresh from 'react-native-animated-ptr';
 
-class customPull extends Component {
+class App extends Component {
 
   constructor(props) {
     super(props);
@@ -195,6 +196,8 @@ class customPull extends Component {
             imageSrc={require('./images/release.png')}
           />
         </PullToRefresh>
+
+        <StatusBar barStyle="light-content" />
       </View>
     )
   }
@@ -236,4 +239,4 @@ const styles = StyleSheet.create({
   }
 })
 
-AppRegistry.registerComponent('customPull', () => customPull)
+Exponent.registerRootComponent(App);
