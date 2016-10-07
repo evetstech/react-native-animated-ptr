@@ -16,10 +16,6 @@ Sets when the animation should occur: before or during the refresh state.
 <strong>componentType</strong> PropTypes.oneOf(['View', 'Image']).isRequired<br>
 Component Type being created.  View allows for more nested components.
 </p>
-<p class="notice">
-<strong>componentType</strong> PropTypes.oneOf(['View', 'Image']).isRequired<br>
-Component Type being created.  View allows for more nested components.
-</p>
 <p class="notice--info">
 <strong>imageSrc</strong> PropTypes.node<br>
 If using image, define the source
