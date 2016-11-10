@@ -1,6 +1,6 @@
 {
   "name": "react-native-animated-ptr",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "An easy-to-create custom animated pull to refresh component",
   "main": "index.js",
   "scripts": {
