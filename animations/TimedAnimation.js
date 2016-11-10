@@ -72,7 +72,7 @@ export default class TimedAnimation extends React.Component {
      * @type {StyleSheet}
      */
     styleProps: React.PropTypes.any,
-    
+
     /**
      * If using image, define the source
      * @type {node}
@@ -93,7 +93,7 @@ export default class TimedAnimation extends React.Component {
   }
   componentWillUnmount() {
     if(this.triggerBindID) {
-      this.triggerAnimated.removeListener(this.triggerBindID);
+      this.state.scrollY.removeListener(this.triggerBindID);
     }
   }
   triggerAnimation(cb) {

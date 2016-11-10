@@ -113,10 +113,10 @@ export default class ScrollAnimation extends React.Component {
 
   componentWillUnmount() {
     if(this.triggerBindID) {
-      this.triggerAnimated.removeListener(this.triggerBindID);
+      this.state.scrollY.removeListener(this.triggerBindID);
     }
     if(this.rotateTriggerBind) {
-      this.spinAnimation.removeListener(this.rotateTriggerBind);
+      this.state.scrollY.removeListener(this.rotateTriggerBind);
     }
   }
 
