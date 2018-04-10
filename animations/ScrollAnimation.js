@@ -5,6 +5,7 @@ import {
   Image,
   UIManager
 } from 'react-native'
+import PropTypes from 'prop-types';
 
 export default class ScrollAnimation extends React.Component {
   constructor(props) {
@@ -30,34 +31,34 @@ export default class ScrollAnimation extends React.Component {
      * Sets when the animation should occur: before or during the refresh state.
      * @type {Enum}
      */
-    occurrence: React.PropTypes.oneOf(['BEFORE_REFRESH', 'DURING_REFRESH']).isRequired,
+    occurrence: PropTypes.oneOf(['BEFORE_REFRESH', 'DURING_REFRESH']).isRequired,
 
     /**
      * Component Type being created.  View allows for more nested components.
      * @type {Enum}
      */
-    componentType: React.PropTypes.oneOf(['View', 'Image']).isRequired,
+    componentType: PropTypes.oneOf(['View', 'Image']).isRequired,
 
     /**
      * If using image, define the source
      * @type {node}
      */
-    imageSrc: React.PropTypes.node,
+    imageSrc: PropTypes.node,
 
     /**
      * The components style props.
      * @type {StyleSheet}
      */
-    styleProps: React.PropTypes.any,
+    styleProps: PropTypes.any,
 
     /**
      * Points for where the animation components will start and end at on the X-axis.  If not moving on X axis,
      * only the from is required (or can be set the same)
      * @type {object}
      */
-    xValues: React.PropTypes.shape({
-      from: React.PropTypes.number.isRequired,
-      to: React.PropTypes.number,
+    xValues: PropTypes.shape({
+      from: PropTypes.number.isRequired,
+      to: PropTypes.number,
     }).isRequired,
 
     /**
@@ -65,16 +66,16 @@ export default class ScrollAnimation extends React.Component {
      * only the from is required (or can be set the same)
      * @type {object}
      */
-    yValues: React.PropTypes.shape({
-      from: React.PropTypes.number.isRequired,
-      to: React.PropTypes.number
+    yValues: PropTypes.shape({
+      from: PropTypes.number.isRequired,
+      to: PropTypes.number
     }).isRequired,
 
     /**
      * The targeted direction of where the animation should go.  Try to choose a suitable direction, or results might not match the intention.
      * @type {Enum}
      */
-    direction: React.PropTypes.oneOf([
+    direction: PropTypes.oneOf([
       'MOVE_DOWN', 'MOVE_UP', 'MOVE_LEFT', 'MOVE_RIGHT',
       'MOVE_UP_LEFT', 'MOVE_UP_RIGHT', 'MOVE_DOWN_LEFT', 'MOVE_DOWN_RIGHT'
     ]).isRequired,
@@ -83,27 +84,27 @@ export default class ScrollAnimation extends React.Component {
      * If set, allows for the animation to trigger at a specific Y-axis scroll number
      * @type {Integer}
      */
-    shouldTriggerAt: React.PropTypes.number,
+    shouldTriggerAt: PropTypes.number,
 
     /**
      * If set, will animate a moving animation to where values are set to.
      * @type {object}
      */
-    shouldHideDuringRefresh: React.PropTypes.shape({
-      toXValue: React.PropTypes.number,
-      toYValue: React.PropTypes.number,
+    shouldHideDuringRefresh: PropTypes.shape({
+      toXValue: PropTypes.number,
+      toYValue: PropTypes.number,
     }),
 
     /**
      * If set, will rotate an animation clockwise or counter-clockwise.  This will potentially be separated out into it's own animation.
      * @type {object}
      */
-    shouldRotate: React.PropTypes.shape({
-      direction: React.PropTypes.oneOf(['CLOCKWISE', 'COUNTER_CLOCKWISE']).isRequired,
-      rotationType: React.PropTypes.oneOf(['ROTATE_WITH_SCROLL', 'ROTATE_CONTINUOUSLY']).isRequired,
-      endRotationDeg: React.PropTypes.string.isRequired,
-      shouldRotateBack: React.PropTypes.bool,
-      rotationTiming: React.PropTypes.number.isRequired,
+    shouldRotate: PropTypes.shape({
+      direction: PropTypes.oneOf(['CLOCKWISE', 'COUNTER_CLOCKWISE']).isRequired,
+      rotationType: PropTypes.oneOf(['ROTATE_WITH_SCROLL', 'ROTATE_CONTINUOUSLY']).isRequired,
+      endRotationDeg: PropTypes.string.isRequired,
+      shouldRotateBack: PropTypes.bool,
+      rotationTiming: PropTypes.number.isRequired,
     })
   }
 
