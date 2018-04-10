@@ -5,6 +5,8 @@ import {
   Image,
   UIManager
 } from 'react-native'
+import PropTypes from 'prop-types';
+
 
 export default class TimedAnimation extends React.Component {
   constructor(props) {
@@ -26,23 +28,23 @@ export default class TimedAnimation extends React.Component {
      * Sets when the animation should occur: before or during the refresh state.
      * @type {Enum}
      */
-    occurrence: React.PropTypes.oneOf(['BEFORE_REFRESH', 'DURING_REFRESH']).isRequired,
+    occurrence: PropTypes.oneOf(['BEFORE_REFRESH', 'DURING_REFRESH']).isRequired,
 
     /**
      * Component Type being created.  View allows for more nested components.
      * @type {Enum}
      */
 
-    componentType: React.PropTypes.oneOf(['View', 'Image']).isRequired,
+    componentType: PropTypes.oneOf(['View', 'Image']).isRequired,
     /**
      * Points for where the animation components will start and end at on the X-axis.  If not moving on X axis,
      * only the from is required (or can be set the same)
      * @type {object}
      */
 
-    xValues: React.PropTypes.shape({
-      from: React.PropTypes.number.isRequired,
-      to: React.PropTypes.number,
+    xValues: PropTypes.shape({
+      from: PropTypes.number.isRequired,
+      to: PropTypes.number,
     }).isRequired,
 
     /**
@@ -50,34 +52,34 @@ export default class TimedAnimation extends React.Component {
      * only the from is required (or can be set the same)
      * @type {object}
      */
-    yValues: React.PropTypes.shape({
-      from: React.PropTypes.number.isRequired,
-      to: React.PropTypes.number
+    yValues: PropTypes.shape({
+      from: PropTypes.number.isRequired,
+      to: PropTypes.number
     }).isRequired,
 
     /**
      * The duration of how long the animation will take to complete in ms.
      * @type {Integer}
      */
-    duration: React.PropTypes.number.isRequired,
+    duration: PropTypes.number.isRequired,
 
     /**
      * Will repeat the animation after completion if set to true.
      * @type {[type]}
      */
-    shouldRepeat: React.PropTypes.bool,
+    shouldRepeat: PropTypes.bool,
 
     /**
      * The components style props.
      * @type {StyleSheet}
      */
-    styleProps: React.PropTypes.any,
+    styleProps: PropTypes.any,
 
     /**
      * If using image, define the source
      * @type {node}
      */
-    imageSrc: React.PropTypes.node,
+    imageSrc: PropTypes.node,
   }
 
   componentDidMount() {

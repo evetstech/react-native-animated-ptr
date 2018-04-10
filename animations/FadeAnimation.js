@@ -5,6 +5,7 @@ import {
   Image,
   UIManager
 } from 'react-native'
+import PropTypes from 'prop-types';
 
 export default class FadeAnimation extends React.Component {
   constructor(props) {
@@ -22,37 +23,37 @@ export default class FadeAnimation extends React.Component {
      * Component Type being created.  View allows for more nested components.
      * @type {Enum}
      */
-    componentType: React.PropTypes.oneOf(['View', 'Image']).isRequired,
+    componentType: PropTypes.oneOf(['View', 'Image']).isRequired,
 
     /**
      * If using image, define the source
      * @type {node}
      */
-    imageSrc: React.PropTypes.node,
+    imageSrc: PropTypes.node,
 
     /**
      * The components style props.
      * @type {StyleSheet}
      */
-    styleProps: React.PropTypes.any,
+    styleProps: PropTypes.any,
 
     /**
      * Fade Type for component.
      * @type {Enum}
      */
-    fadeType: React.PropTypes.oneOf(['FADE_IN', 'FADE_OUT']).isRequired,
+    fadeType: PropTypes.oneOf(['FADE_IN', 'FADE_OUT']).isRequired,
 
     /**
      * Lower bound opacity
      * @type {Integer}
      */
-    maxOpacity: React.PropTypes.number.isRequired,
-    
+    maxOpacity: PropTypes.number.isRequired,
+
     /**
      * Upper bound opacity
      * @type {Integer}
      */
-    minOpacity: React.PropTypes.number.isRequired
+    minOpacity: PropTypes.number.isRequired
   }
 
   render() {
